@@ -1,0 +1,206 @@
+/* HOMEPAGE / index */
+.width {
+    width: 1200px;
+}
+
+.grey_border {
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px grey;
+}
+
+.flex_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.white_box {
+    width: 400px;
+    height: 300px;
+    background-color: rgba(245, 245, 245, 0.6);
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex_column {
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.welcome {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign_block {
+    background-color: rgb(150, 62, 15, 0.8);
+    width: 150px;
+    height: 200px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.sign_block:hover {
+    background-color: rgb(117, 67, 14);
+    border: 1px solid rgb(199, 127, 50);
+}
+
+.btn {
+    background-color: rgb(235, 161, 52);
+    color: white;
+    padding: 10px 15px;
+    margin-right: 10px;
+}
+
+.btn:hover {
+    border: 1px solid white;
+    background-color: rgb(237, 177, 88);
+    cursor: pointer;
+}
+
+h1  {
+    color: rgb(120, 81, 40  );
+}
+
+h3, p {
+    color: rgb(250, 250, 250);
+}
+
+h2, .welcome p {
+    color: white;
+    text-shadow: 3px 1px 1px black;
+    font-weight: bold;
+}
+
+p {
+    font-size: 20px;
+}
+
+body {
+    margin: auto;
+}
+
+header {
+    background-color: rgba(250, 250, 250, 0.8);
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    background-color: dimgrey;
+    background-image: url("image/homedating.jpg");
+    background-repeat: no-repeat;
+    background-position: 270px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: rgba(250, 250, 250, 0.8);
+    height: 100px;
+}
+
+/* registration */
+.register_block {
+    background-color: rgba(250, 250, 250, 0.8);
+    height: 759px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input_style {
+    box-shadow: 1px 1px 1px darkgrey;
+    font-size: 16px;
+    width: 400px;
+    height: 30px;
+    padding: 3px;
+}
+
+.white_border_box {
+    background-color: white;
+    border: 1px solid grey;
+    box-shadow: 1px 1px 1px darkgrey;
+    width: 130px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.cursor_pointer:hover {
+    cursor: pointer;
+}
+
+.input_block {
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.flex_row_wrap {
+    width: 380px;
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+}
+
+.align_center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.other_hobby_div:hover {
+    border: 1px solid white;
+    background-color: rgb(124, 184, 230);
+}
+
+.select_genre {
+    color: grey;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 1px;
+    width: 402px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+select {
+    font-size: 14px;
+    height: 30px;
+    width: 100px;
+}
+
+/* connection */
+.connection_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_height{
+    height: 789px;
+}
+
+.login_error_msg{
+    font-size: 12px;
+    color: red;
+}
